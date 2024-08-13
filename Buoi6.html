@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buoi6</title>
+    <style>
+        .anh1 img {
+            margin-top: -15px;
+            width: 1485px;
+            height: 400px;
+            margin-left: -10px;
+
+
+
+
+        }
+
+        .anh1 {
+            position: relative;
+
+        }
+
+        .parent p {
+            position: absolute;
+            left: 40px;
+            top: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .anh2 {
+            position: absolute;
+            top: 28px
+        }
+
+        .hang {
+
+            list-style: none;
+            display: flex;
+            flex-direction: row;
+            margin-left: 1040px;
+
+        }
+
+        .anh1 ul.hang a {
+
+            text-decoration: none;
+            display: block;
+            list-style: none;
+            color: rgb(255, 255, 255);
+            font-size: 18px;
+        }
+
+        .generic a {
+            text-decoration: none;
+
+
+        }
+
+        .generic {
+            list-style: none;
+            width: 94px;
+            height: 90px;
+            background-color: grey;
+            color: white;
+            display: none
+        }
+
+        .generic-father:hover .generic {
+            display: block;
+        }
+
+        .content {
+            position: absolute;
+            top: 90px;
+            margin-left: 650px;
+        }
+
+        .content1 {
+            color: white;
+            margin-left: -120px;
+            margin-top: -30px;
+        }
+
+        .content2 {
+            color: white;
+            margin-left: -70px;
+            margin-top: -10px;
+        }
+
+        .content3 {
+            color: white;
+            width: 120px;
+            height: 50px;
+            background-color: red;
+            text-align: center;
+            margin-top: 30px;
+            border: 0px;
+
+        }
+
+        .phan2 {
+            display: flex;
+        }
+
+        .menu1 {
+            font-weight: 600;
+            margin-top: 55px;
+            margin-left: 365px;
+        }
+
+        .menu2 {
+            font-weight: 600;
+            margin-top: -12px;
+            margin-left: 365px;
+        }
+
+        .menu3 {
+            color: grey;
+            font-size: 22px;
+            margin-left: 365px;
+            margin-top: -7px;
+
+
+        }
+
+        .menu4 {
+            color: grey;
+            font-size: 22px;
+            margin-left: 365px;
+            margin-top: -10px;
+
+
+        }
+
+
+        .menu8 {
+            display: flex;
+            flex-direction: column;
+            font-size: 16px;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-left: 75px;
+            color: grey;
+        }
+
+        .menu18 {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .menu12 {
+            color: grey;
+            font-size: 16px;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-left: 75px;
+
+        }
+
+        .phan3 {
+            margin-top: 60px;
+            width: 1485px;
+            height: 800px;
+            background-color: rgba(240, 255, 255, 0.927)
+        }
+
+        .anh3 img {
+
+            width: 380px;
+            height: 270px;
+            margin-top: 0px;
+            margin-left: 0px;
+            margin-right: 0px;
+
+        }
+
+        .anh3 {
+            width: 381px;
+            height: 340px;
+            background-color: white;
+            margin-top: 60px;
+            margin-left: 343px;
+        }
+
+        .anh4 img {
+
+            width: 380px;
+            height: 270px;
+            margin-top: 0px;
+            margin-left: 0px;
+            margin-right: 0px;
+        }
+
+        .anh4 {
+            width: 381px;
+            height: 340px;
+            background-color: white;
+            margin-top: 60px;
+            margin-left: 40px;
+        }
+
+        .picture {
+            display: flex;
+        }
+
+        .step1 {
+            font-size: 33px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 600;
+
+        }
+
+        .thongtin {
+
+            padding-top: 50px;
+            margin-left: 500px;
+
+        }
+
+        .dia-chi {
+            margin-left: 520px;
+            color: grey;
+            font-size: 20px;
+            margin-top: -20px;
+        }
+
+        .anh3 p {
+            margin-top: 22px;
+            margin-left: 50px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .anh4 p {
+            margin-top: 22px;
+            margin-left: 50px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+
+        .nut1 {
+            background-color: red;
+            height: 50px;
+            width: 140px;
+            font-size: 15px;
+            color: white;
+            border-bottom: 0;
+            border-right: 0;
+            border-left: 0;
+            border-top: 0;
+            margin-top: 80px;
+            margin-left: 590px;
+
+        }
+
+        .nut2 {
+            background-color: darkslategrey;
+            height: 50px;
+            width: 140px;
+            font-size: 15px;
+            color: white;
+            border-bottom: 0;
+            border-right: 0;
+            border-left: 0;
+            border-top: 0;
+            margin-left: 20px;
+        }
+
+        .phan61 {
+            margin-top: 90px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 35px;
+            font-weight: 600;
+            margin-left: 90px;
+
+        }
+
+        .phan62 {
+            font-family: Arial, Helvetica, sans-serif;
+            color: grey;
+            margin-top: -13px;
+            margin-left: 90px;
+
+        }
+
+        .buoc4 {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+
+        .buoc41 {
+            display: flex;
+            flex-direction: column;
+            font-size: 15px;
+        }
+
+
+
+        .anh5 img {
+            width: 120px;
+            height: 120px;
+            border-radius: 70%;
+            margin-left: 30px;
+            margin-top: 120px;
+        }
+
+        .anh6 img {
+            border-radius: 70%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="anh1">
+        <img src="./img/banner.jpg" alt="">
+        <div class="parent">
+            <p style="color:white"><span style="font-weight: 600">SPRATIAL</span> BY TEMPLATED</p>
+
+        </div>
+        <div class="anh2">
+            <ul class="hang">
+                <a href="" ; style="font-weight: 600;">
+                    <li>HOME</li>
+                </a>
+                <a href="" ; style="margin-left: 30px;font-weight: 600;">
+                    <li class="generic-father">GENERIC <ul class="generic">
+                            <a href="">
+                                <li style="margin-left: -17px; margin-top: 5px;">GENERIC 1</li>
+                            </a>
+                            <a href="">
+                                <li style="margin-left: -17px;margin-top: 10px;">GENERIC 2</li>
+                            </a>
+                            <a href="">
+                                <li style="margin-left: -17px;margin-top: 10px;">GENERIC 3</li>
+                            </a>
+                        </ul>
+                    </li>
+                </a>
+                <a href="" ; style="margin-left: 55px;font-weight: 600;">
+                    <li>ELEMENTS</li>
+                </a>
+            </ul>
+        </div>
+        <div class="content">
+            <h2 style="font-size: 45px; color:white">PATIAL</h2>
+            <p class="content1">LOREM IPSUM DOLOR SIT AMET NULLAM CONSEQUAT</p>
+            <p class="content2">INTERDUM VIVAMUS DONCE SED LIBERQ</p>
+            <button class="content3">GET STARTED</button>
+        </div>
+
+    </div>
+
+    <div class="phan2">
+        <div class="menu11">
+            <p class="menu1" style="font-size: 32px;font-family:Arial, Helvetica, sans-serif ;">MACSENAS</p>
+            <p class="menu2" style="font-size: 32px;font-family:Arial, Helvetica, sans-serif ;">LUCTUS LECTUS</p>
+            <p class="menu3">PERSPICIATIS DOLOREMQUE</p>
+            <p class="menu4">RECUSANDAE DOLOR</p>
+        </div>
+
+        <div class="menu18">
+            <div class="menu8">
+                <p class="menu5" style="margin-top: 54px ;">Lorem ipsum dolor sit amrt, consectetur adipisicing elit.
+                    Non
+                </p>
+                <p class="menu6" style="margin-top: -6px;">ea mollitia corporis id, distinctio sunt veritatis officiis
+                    dolore</p>
+                <p class="menu7" style="margin-top: -6px;">reprehenderit deleniti voluptatibus harum magna.</p>
+                <p class="menu9" style="margin-top: -6px;">doloremque alias quisquam minus, eaque. Feugiat quod</p>
+                <p class="menu10" style="margin-top: -6px;">nesciunt! Iste quos ipsam, iusto sit esse.</p>
+            </div>
+            <div class="menu12">
+                <p class="menu13">Dolorum aspernatur maxime libero ratione quidem distinctio,
+                </p>
+                <p class="menu14" style="margin-top: -6px;">placeat fugiat laborum voluptatum enim neque soluta vel</p>
+                <p class="menu15" style="margin-top: -6px;">sunt id ex veritatis. Labore rerum, odit sapiente, alias
+                    mollitia</p>
+                <p class="menu16" style="margin-top: -6px;">magnam exercitationem modi amet earum quia atque ipsum </p>
+                <p class="menu17" style="margin-top: -6px;">voluptas asperiores quas laboriosam</p>
+            </div>
+        </div>
+
+
+    </div>
+
+    <div class="phan3">
+
+        <div class="thongtin">
+            <p class="step1">FUSCE ULTRICES FRINGILLA</p>
+        </div>
+        <div class="dia-chi">
+            <p>MAECENAS VITAE TELLUS FEUGIAT ELEIFEND</p>
+        </div>
+
+        <div class="buoc3">
+            <div class="picture">
+                <div class="anh3">
+                    <img src="./img/pic02.jpg" alt="">
+                    <p>LOREM IPSUM DOLOR SIT AMET</p>
+                </div>
+
+                <div class="anh4">
+                    <img src="./img/pic03.jpg" alt="">
+                    <p>ILLUM, MAIPRES TEMPORA CUPID?</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="nut">
+            <button class="nut1">NULLA LUCTUS </button>
+            <button class="nut2">SED VULPUTATE</button>
+        </div>
+    </div>
+
+    <div class="phan6">
+        <p class="phan61">MAURIUS VULPUTATE DOLOR</p>
+        <p class="phan62">FEUGIAT SED LOREM IPSUM MAGNA</p>
+    </div>
+
+    <div class="buoc4">
+        <div class="buoc41">
+            <p class="stop1" style="margin-top: 108px;margin-left: 300px;font-weight: 700;">LOREM IPSUM</p>
+            <p class="stop2" style="margin-top: -4px;margin-left: 228px;color: grey;">LOREM IPSUN DOLOR SIT</p>
+            <p class="stop3" style="margin: 15px;margin-left: 97px; color:grey">Lorem ipsum dolor sit amet, consectetur
+                adipisicing</p>
+            <p class="stop4" style="margin-top: -4px;margin-left: 111px;color: grey;">elit. Labore esse tenetur
+                accusantium porro omnis</p>
+            <p class="stop5" style="margin-top: -4px;margin-left: 148px;color: grey;">unde moltitle totam sit nesciunt
+                consectetur</p>
+        </div>
+        <di class="anh5">
+
+
+            <img src="./img/pic04.jpg" alt="">
+
+    </div>
+    <div class="anh6">
+        <img src="./img/pic05.jpg" alt="">
+    </div>
+</body>
+</div>
+
+</html>
